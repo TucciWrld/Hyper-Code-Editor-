@@ -1,0 +1,6 @@
+{
+  "name": "Hyper Code",
+  "description": "A professional mobile code editor, live preview environment, and lightweight IDE capable of creating, running, and debugging HTML, CSS, JavaScript, TypeScript, and React projects with a built-in AI companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
