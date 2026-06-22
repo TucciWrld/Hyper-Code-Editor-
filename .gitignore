@@ -1,18 +1,30 @@
-*.iml
-.gradle
-.kotlin
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+node_modules/
+*.log
 .env
-debug.keystore
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+dist-electron/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# OS
+Thumbs.db
+.DS_Store
